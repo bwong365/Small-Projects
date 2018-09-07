@@ -8,10 +8,9 @@ public class Main {
         //Scanner scanner = new Scanner(System.in);
         //System.out.print("how many iterations? ");
         //int iters = Integer.parseInt(scanner.nextLine());
-        System.out.println(calc.bellardbd(1));
+        System.out.println(calc.bellardbd(10));
         System.out.println(calc.bellardbd(200));
-        System.out.println(calc.bellardbd(2000));
-        System.out.println(calc.bellardbd(20000).subtract(calc.bellardbd(2000)));
+
 
     }
 }
