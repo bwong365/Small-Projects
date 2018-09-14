@@ -1,5 +1,10 @@
+import ui.UserInterface;
+
+import javax.swing.*;
+
 public class Main {
     public static void main(String[] args) {
-        Fibonacci.sequence(18);
+        UserInterface ui = new UserInterface();
+        SwingUtilities.invokeLater(ui);
     }
 }
