@@ -10,7 +10,5 @@ public class Main {
         //int iters = Integer.parseInt(scanner.nextLine());
         System.out.println(calc.bellardbd(10));
         System.out.println(calc.bellardbd(200));
-
-
     }
 }

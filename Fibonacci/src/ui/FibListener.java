@@ -17,6 +17,6 @@ public class FibListener implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         int a = Integer.parseInt(textField.getText());
-        label.setText(String.valueOf(Fibonacci.sequence(a)));
+        label.setText(String.valueOf(Fibonacci.dynamic(a)));
     }
 }
